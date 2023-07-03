@@ -2,6 +2,43 @@ header {
     padding-top: 10px;
 }
 
-.border-radius-0 {
-    border-radius: 0;
+.bg-gray {
+    background-color: rgb(240, 240, 240);
+}
+
+.description {
+    font-size: 125%;
+}
+
+ul {
+    font-size: 125%;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 50%;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+}
+
+button {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 0 !important;
 }
