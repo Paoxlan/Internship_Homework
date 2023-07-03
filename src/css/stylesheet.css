@@ -6,6 +6,10 @@ header {
     background-color: rgb(240, 240, 240);
 }
 
+.text-gray {
+    color: rgb(172, 172, 172);
+}
+
 .description {
     font-size: 125%;
 }
