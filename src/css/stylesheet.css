@@ -10,35 +10,29 @@ header {
     color: rgb(172, 172, 172);
 }
 
-.description {
-    font-size: 125%;
-}
-
 ul {
     font-size: 125%;
     list-style-type: none;
 }
 
-@media screen and (max-width: 600px) {
-    * {
-        font-size: 50%;
-    }
+.container-fluid {
+    position: relative;
+}
 
-    p {
-        font-size: 10px;
-    }
+.nav-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
 
-    .description {
-        font-size: 10px;
-    }
-
-    ul {
-        font-size: 14px;
-    }
-
-    a {
-        font-size: 10px;
-    }
+.anchor-none,
+.anchor-none a {
+    text-decoration: none;
+    color: inherit;
 }
 
 button {
